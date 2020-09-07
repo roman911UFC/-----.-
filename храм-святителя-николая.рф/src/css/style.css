@@ -1,0 +1,416 @@
+* h1, h2, h3 {
+ color: #b79a3c;
+ text-align: center;
+}
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  background: #000;
+}
+.carousel-item > img {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  background: #000;
+  opacity: 0.7;
+}
+
+.vision:hover {
+  text-decoration: none;
+}
+
+body {
+  background-color: lemonchiffon;
+}
+
+.button {
+  color: #b79a3c;
+}
+.shade {
+  color: 	#3CB371;
+}
+.blog-post-title {
+margin-top: 30px
+}
+.front {
+margin-top: 100px
+}
+.bd-placeholder{
+  margin-top: 100px
+}
+
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+.clearfix:before,  
+.clearfix:after {  
+    content: " ";  
+    display: table;  
+}  
+.clearfix:after {  
+    clear: both;  
+}  
+.clearfix {  
+    *zoom: 1;  
+}  
+
+nav a {  
+  color: #fff;  
+  display: inline-block;  
+  width: 100px;  
+  text-align: center;  
+  text-decoration: none;  
+  line-height: 40px;  
+  text-shadow: 1px 1px 0px #283744;  
+}  
+nav li a {  
+  border-right: 1px solid #576979;  
+  box-sizing:border-box;  
+  -moz-box-sizing:border-box;  
+  -webkit-box-sizing:border-box;  
+}  
+nav li:last-child a {  
+  border-right: 0;  
+}  
+nav a:hover, nav a:active {  
+  background-color: #8c99a4;  
+}  
+nav a#pull {  
+  display: none;  
+} 
+
+@media screen and (max-width: 600px) {  
+  nav {   
+      height: auto;  
+  }  
+  nav ul {  
+      width: 100%;  
+      display: block;  
+      height: auto;  
+  }  
+  nav li {  
+      width: 50%;  
+      float: left;  
+      position: relative;  
+  }  
+  nav li a {  
+      border-bottom: 1px solid #576979;  
+      border-right: 1px solid #576979;  
+  }  
+  nav a {  
+      text-align: left;  
+      width: 100%;  
+      text-indent: 25px;  
+  }  
+}  
+
+@media only screen and (max-width : 480px) {  
+  nav {  
+      border-bottom: 0;  
+  }  
+  nav ul {  
+      display: none;  
+      height: auto;  
+  }  
+  nav a#pull {  
+      display: block;  
+      background-color: #283744;  
+      width: 100%;  
+      position: relative;  
+  }  
+  nav a#pull:after {  
+      content:"";  
+      background: url('nav-icon.png') no-repeat;  
+      width: 30px;  
+      height: 30px;  
+      display: inline-block;  
+      position: absolute;  
+      right: 15px;  
+      top: 10px;  
+  }  
+}  
+
+@media only screen and (max-width : 320px) {  
+  nav li {  
+      display: block;  
+      float: none;  
+      width: 100%;  
+  }  
+  nav li a {  
+      border-bottom: 1px solid #576979;  
+  }  
+} 
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+.button_many {
+  font-size: 70px;
+}
+
+
+
+.blog-post {
+  display: block;
+}
+.streamline {
+float: right;
+}
+.blog-post-title {
+  text-align: center;
+}
+.btn btn-primary  {
+  border-radius: 100%;
+}
+.colorist {
+  display: inline-block;
+  vertical-align: middle;
+  height: 300px;
+  color: #343a40;
+
+}
+.nav-scroller a{
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: lighter;
+ } 
+.nav-scroller a:hover {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  background: #343a40; /* Цвет фона под ссылкой */ 
+  color: #DCDCDC;
+  transition: 0.5s;
+  text-decoration: none;
+ } 
+ .change {
+display: inline-block;
+height: 30px;
+padding-bottom: 30px;
+margin-bottom: 30px;
+ }
+ .incenter {
+
+   display: inline-block;
+   left: 50%;
+ }
+ .takemoney{
+   height: 100px;
+  background-color: #b79a3c;
+  border: #343a40;
+  transition: all 3s ease-in; 
+ }
+ .takemoney:hover{
+  background-color: #b79a3c;
+  position: relative;
+    opacity: 1;
+    transform: scale(2,2);
+    transition: 11s;
+ }
+
+ .scaling img{
+  transition: 1s; /* Время эффекта */
+  border: 4px double;
+  border-style: solid;
+  border-color: #b79a3c;
+ }
+ 
+.scaling img:hover{
+  transform: scale(1.5); /* Увеличиваем масштаб */
+  margin: 100px;
+}
+
+.coloristbutton {
+  background-color: #b79a3c;
+  border: inherit;
+
+}
+.coloristbutton:hover {
+  background-color: #b79a3c;
+  border: inherit;
+}
+.topmarg {
+  padding-top:px;
+  margin-top: 20px;
+}
+
+
+ .colorists:active {
+}
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+@media screen and (max-width: 600px) {  
+  nav {   
+      height: auto;  
+  }  
+  nav ul {  
+      width: 100%;  
+      display: block;  
+      height: auto;  
+  }  
+  nav li {  
+      width: 50%;  
+      float: left;  
+      position: relative;  
+  }  
+  nav li a {  
+      border-bottom: 1px solid #576979;  
+      border-right: 1px solid #576979;  
+  }  
+  nav a {  
+      text-align: left;  
+      width: 100%;  
+      text-indent: 25px;  
+  }  
+}
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .promo img {
+    width: 1100px;
+  }
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .promo img {
+    width: 1000px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .promo img {
+    width: 800px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .promo img {
+    width: 600px;
+  }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  .promo img {
+    width: 380px;
+  }
+}
+
+/* картинки храма до реставрации */
+
+@media (min-width: 1200px) {
+  .scaling img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .scaling img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .scaling img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .scaling img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  .scaling img {
+    width: 50%;
+    height: 50%;
+  }
+}
